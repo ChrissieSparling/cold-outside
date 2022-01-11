@@ -1,0 +1,8 @@
+.banner{
+    background: linear-gradient(to right,blue,purple);
+    color: rgb(107, 194, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

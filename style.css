@@ -1,0 +1,70 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    /* asshole stops working when bootstrap is loaded but i don't know how to fix right now and I got bigger fisher to fry- as far as i'm concerned it's the program's fault right now */
+    background: linear-gradient(to right,blue,purple);
+    color: rgb(115, 252, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    top: 50px;
+    bottom: 50px;
+  
+}
+
+h1,
+h2{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+main {
+    display: flex !important;
+    background-color: #c9e3fb;
+}
+
+.search-box {
+    width: 30%;
+    margin-right: 15px;
+}
+
+
+#fetch-button {
+    background: linear-gradient(to right,blue,purple);
+
+}
+
+.searchQuestion {
+    font-weight: 600;
+    font-size: 35px;
+    color: purple;
+    margin-top: 20px;
+}
+
+#history button {
+    margin: 10px;
+}
+
+.icon {
+    width: 65px;
+}
+
+.circle {
+    margin: 10px 0 0 4px;
+    display: inline-flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#future-weather {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#future-weather>div {
+    margin: 10px;
+    background-color: rgb(45, 112, 255);
+    color: cornsilk;
+}
